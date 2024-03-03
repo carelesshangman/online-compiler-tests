@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    background-color: #22272e; /* Dark background */
+    color: #f0f0f0; /* Off-white text */
+    font-family: 'Arial', sans-serif; /* Example font */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for components - you would add more selectors */
+.container {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    background-color: #333;
+    color: #f0f0f0;
+    /* Other textarea styles */
+}
+
+.container {
+    display: flex; /* Arrange elements side-by-side */
+}
+
+.column {
+    /* Column style to give each side 50% space */
+    flex: 1;
+    margin: 0.5rem; /* Add some margin between columns */
+}
