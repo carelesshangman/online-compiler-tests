@@ -23,7 +23,7 @@ function App() {
     const handleExecute = async () => {
         setIsLoading(true);
         try {
-            const response = await axios.post('http://localhost:3001/runCode', { code, input });
+            const response = await axios.post('http://localhost:3002/runCode', { code, input });
             console.log(response.data.results); // Log the backend response
 
             const extractedResults = response.data.results.map(result => (result.passed ? 'passed' : 'failed'));
