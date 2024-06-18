@@ -15,8 +15,11 @@ This code will be used for CodePulse, a project I am working on.
 
 1. **Install dependencies:**
     ```bash 
-    cd online-compiler-tests
-    npm install  
+    cd server
+    npm install
+    cd ..
+    cd client
+    npm install
     ```
 
 ## Running the Project
